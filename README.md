@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>
+Finance Application Web PAge
+</title>
+</head>
+<body>
+
+<div class="test">
+
+<form action="action_page.php">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname""><br>
+    Last name:<br>
+    <input type="text" name="lastname"><br><br>  
+    Phone Number:<br>
+  <input type="number" name="Phone Number" min="10"><br>
+
+E-mail:<br>
+  <input type="email" name="email">
+<br>
+Application Manager:<br>
+   
+    <input list="Applications">
+
+<datalist id="Applications">
+  <option value="Load Enquiry">
+  <option value="Application Tracking">
+  <option value="Consulation">
+  <option value="Document Verification">
+  <option value="Plan & offers">
+</datalist>
+<br>
+<br>
+    <input type="submit" value="Submit" class="button">
+<br>
+  </fieldset>
+</form>
+</div>
+<div class="Feedback">
+<h1>Contact Us </h1>
+</div>
+
+
+
+</body>
+<footer>
+</footer>
+
+</html>
